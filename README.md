@@ -1,3 +1,7 @@
+This is a collection of pipelines that illustrate different error handling techniques from simple logging to parsing error logs, and sending email notifications. They can be copied into existing pipelines or called as child pipelines.
+
+*******
+
 The error pipeline - write error file to sldb pipeline processes error records from other pipelines by creating unique identifiers, mapping error details to a structured format, and writing the results to JSON files. It captures pipeline execution information including error details, warnings, and payload data for logging and debugging purposes.
 
 Snap Summary:
